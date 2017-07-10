@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014E41E31F107752003966D4 /* PopTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014E41E21F107752003966D4 /* PopTransitionViewController.m */; };
+		014E41E61F107A97003966D4 /* PopCloseTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014E41E51F107A97003966D4 /* PopCloseTransitionViewController.m */; };
+		014E41E91F107C3A003966D4 /* PresentingAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 014E41E81F107C3A003966D4 /* PresentingAnimation.m */; };
+		014E41EC1F107C48003966D4 /* CloseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 014E41EB1F107C48003966D4 /* CloseAnimation.m */; };
+		014E41F11F10B21F003966D4 /* PreviousViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014E41F01F10B21F003966D4 /* PreviousViewController.m */; };
+		014E41F41F10B242003966D4 /* PreviousRedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014E41F31F10B242003966D4 /* PreviousRedViewController.m */; };
+		014E41F71F10B253003966D4 /* PreviousBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014E41F61F10B253003966D4 /* PreviousBlueViewController.m */; };
 		019D35361F0F6F3200233819 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D35351F0F6F3200233819 /* main.m */; };
 		019D35391F0F6F3200233819 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D35381F0F6F3200233819 /* AppDelegate.m */; };
 		019D353C1F0F6F3200233819 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D353B1F0F6F3200233819 /* ViewController.m */; };
@@ -15,6 +22,11 @@
 		019D35441F0F6F3200233819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019D35421F0F6F3200233819 /* LaunchScreen.storyboard */; };
 		019D354F1F0F6F3200233819 /* OfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D354E1F0F6F3200233819 /* OfoTests.m */; };
 		019D355A1F0F6F3200233819 /* OfoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D35591F0F6F3200233819 /* OfoUITests.m */; };
+		019D356B1F0F6FE600233819 /* PopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D35681F0F6FE600233819 /* PopTableViewCell.m */; };
+		019D356C1F0F6FE600233819 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D356A1F0F6FE600233819 /* PopViewController.m */; };
+		019D356F1F0F7EF400233819 /* PopTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D356E1F0F7EF400233819 /* PopTextViewController.m */; };
+		019D35711F0F8A1000233819 /* QQ20170522-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019D35701F0F8A1000233819 /* QQ20170522-0.jpg */; };
+		D3E29989207C699F97FB2DEA /* libPods-Ofo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F005468222B1FE55AE3E6616 /* libPods-Ofo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		014E41E11F107752003966D4 /* PopTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTransitionViewController.h; sourceTree = "<group>"; };
+		014E41E21F107752003966D4 /* PopTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTransitionViewController.m; sourceTree = "<group>"; };
+		014E41E41F107A97003966D4 /* PopCloseTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopCloseTransitionViewController.h; sourceTree = "<group>"; };
+		014E41E51F107A97003966D4 /* PopCloseTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopCloseTransitionViewController.m; sourceTree = "<group>"; };
+		014E41E71F107C3A003966D4 /* PresentingAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentingAnimation.h; sourceTree = "<group>"; };
+		014E41E81F107C3A003966D4 /* PresentingAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentingAnimation.m; sourceTree = "<group>"; };
+		014E41EA1F107C48003966D4 /* CloseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseAnimation.h; sourceTree = "<group>"; };
+		014E41EB1F107C48003966D4 /* CloseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseAnimation.m; sourceTree = "<group>"; };
+		014E41EF1F10B21F003966D4 /* PreviousViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviousViewController.h; sourceTree = "<group>"; };
+		014E41F01F10B21F003966D4 /* PreviousViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviousViewController.m; sourceTree = "<group>"; };
+		014E41F21F10B242003966D4 /* PreviousRedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviousRedViewController.h; sourceTree = "<group>"; };
+		014E41F31F10B242003966D4 /* PreviousRedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviousRedViewController.m; sourceTree = "<group>"; };
+		014E41F51F10B253003966D4 /* PreviousBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviousBlueViewController.h; sourceTree = "<group>"; };
+		014E41F61F10B253003966D4 /* PreviousBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviousBlueViewController.m; sourceTree = "<group>"; };
 		019D35311F0F6F3200233819 /* Ofo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ofo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		019D35351F0F6F3200233819 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		019D35371F0F6F3200233819 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +77,16 @@
 		019D35551F0F6F3200233819 /* OfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		019D35591F0F6F3200233819 /* OfoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfoUITests.m; sourceTree = "<group>"; };
 		019D355B1F0F6F3200233819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019D35671F0F6FE600233819 /* PopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTableViewCell.h; sourceTree = "<group>"; };
+		019D35681F0F6FE600233819 /* PopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTableViewCell.m; sourceTree = "<group>"; };
+		019D35691F0F6FE600233819 /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
+		019D356A1F0F6FE600233819 /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
+		019D356D1F0F7EF400233819 /* PopTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTextViewController.h; sourceTree = "<group>"; };
+		019D356E1F0F7EF400233819 /* PopTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTextViewController.m; sourceTree = "<group>"; };
+		019D35701F0F8A1000233819 /* QQ20170522-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "QQ20170522-0.jpg"; sourceTree = "<group>"; };
+		BF35E228D2EA88B669C98A71 /* Pods-Ofo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ofo/Pods-Ofo.release.xcconfig"; sourceTree = "<group>"; };
+		CAB7C77D6513071755D11029 /* Pods-Ofo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ofo/Pods-Ofo.debug.xcconfig"; sourceTree = "<group>"; };
+		F005468222B1FE55AE3E6616 /* libPods-Ofo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ofo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E29989207C699F97FB2DEA /* libPods-Ofo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +115,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		014E41ED1F10B1C3003966D4 /* PresentSimple */ = {
+			isa = PBXGroup;
+			children = (
+				014E41E11F107752003966D4 /* PopTransitionViewController.h */,
+				014E41E21F107752003966D4 /* PopTransitionViewController.m */,
+				014E41E71F107C3A003966D4 /* PresentingAnimation.h */,
+				014E41E81F107C3A003966D4 /* PresentingAnimation.m */,
+				014E41E41F107A97003966D4 /* PopCloseTransitionViewController.h */,
+				014E41E51F107A97003966D4 /* PopCloseTransitionViewController.m */,
+				014E41EA1F107C48003966D4 /* CloseAnimation.h */,
+				014E41EB1F107C48003966D4 /* CloseAnimation.m */,
+			);
+			name = PresentSimple;
+			sourceTree = "<group>";
+		};
+		014E41EE1F10B1DC003966D4 /* AnimationSimple */ = {
+			isa = PBXGroup;
+			children = (
+				019D356D1F0F7EF400233819 /* PopTextViewController.h */,
+				019D356E1F0F7EF400233819 /* PopTextViewController.m */,
+				019D35671F0F6FE600233819 /* PopTableViewCell.h */,
+				019D35681F0F6FE600233819 /* PopTableViewCell.m */,
+			);
+			name = AnimationSimple;
+			sourceTree = "<group>";
+		};
 		019D35281F0F6F3200233819 = {
 			isa = PBXGroup;
 			children = (
+				019D35701F0F8A1000233819 /* QQ20170522-0.jpg */,
 				019D35331F0F6F3200233819 /* Ofo */,
 				019D354D1F0F6F3200233819 /* OfoTests */,
 				019D35581F0F6F3200233819 /* OfoUITests */,
 				019D35321F0F6F3200233819 /* Products */,
+				EEE6EB160E9C38AD84763DC1 /* Pods */,
+				FAA1D0487B75F9A64B42534C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +167,16 @@
 		019D35331F0F6F3200233819 /* Ofo */ = {
 			isa = PBXGroup;
 			children = (
+				014E41EF1F10B21F003966D4 /* PreviousViewController.h */,
+				014E41F01F10B21F003966D4 /* PreviousViewController.m */,
+				014E41F21F10B242003966D4 /* PreviousRedViewController.h */,
+				014E41F31F10B242003966D4 /* PreviousRedViewController.m */,
+				014E41F51F10B253003966D4 /* PreviousBlueViewController.h */,
+				014E41F61F10B253003966D4 /* PreviousBlueViewController.m */,
+				014E41ED1F10B1C3003966D4 /* PresentSimple */,
+				014E41EE1F10B1DC003966D4 /* AnimationSimple */,
+				019D35691F0F6FE600233819 /* PopViewController.h */,
+				019D356A1F0F6FE600233819 /* PopViewController.m */,
 				019D35371F0F6F3200233819 /* AppDelegate.h */,
 				019D35381F0F6F3200233819 /* AppDelegate.m */,
 				019D353A1F0F6F3200233819 /* ViewController.h */,
@@ -140,6 +216,23 @@
 			path = OfoUITests;
 			sourceTree = "<group>";
 		};
+		EEE6EB160E9C38AD84763DC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAB7C77D6513071755D11029 /* Pods-Ofo.debug.xcconfig */,
+				BF35E228D2EA88B669C98A71 /* Pods-Ofo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAA1D0487B75F9A64B42534C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F005468222B1FE55AE3E6616 /* libPods-Ofo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 019D355E1F0F6F3200233819 /* Build configuration list for PBXNativeTarget "Ofo" */;
 			buildPhases = (
+				9ED500E96D9B2223F2BFCC56 /* [CP] Check Pods Manifest.lock */,
 				019D352D1F0F6F3200233819 /* Sources */,
 				019D352E1F0F6F3200233819 /* Frameworks */,
 				019D352F1F0F6F3200233819 /* Resources */,
+				A9C6AABA0E6670918B5D747C /* [CP] Embed Pods Frameworks */,
+				192EA044DE53391A7DEE827E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +303,7 @@
 				TargetAttributes = {
 					019D35301F0F6F3200233819 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PVS2BL8MB4;
 						ProvisioningStyle = Automatic;
 					};
 					019D35491F0F6F3200233819 = {
@@ -247,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				019D35441F0F6F3200233819 /* LaunchScreen.storyboard in Resources */,
+				019D35711F0F8A1000233819 /* QQ20170522-0.jpg in Resources */,
 				019D35411F0F6F3200233819 /* Assets.xcassets in Resources */,
 				019D353F1F0F6F3200233819 /* Main.storyboard in Resources */,
 			);
@@ -268,14 +366,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		192EA044DE53391A7DEE827E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ofo/Pods-Ofo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ED500E96D9B2223F2BFCC56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9C6AABA0E6670918B5D747C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ofo/Pods-Ofo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		019D352D1F0F6F3200233819 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				014E41F11F10B21F003966D4 /* PreviousViewController.m in Sources */,
 				019D353C1F0F6F3200233819 /* ViewController.m in Sources */,
+				014E41E31F107752003966D4 /* PopTransitionViewController.m in Sources */,
+				019D356F1F0F7EF400233819 /* PopTextViewController.m in Sources */,
+				019D356C1F0F6FE600233819 /* PopViewController.m in Sources */,
+				014E41F41F10B242003966D4 /* PreviousRedViewController.m in Sources */,
+				014E41E61F107A97003966D4 /* PopCloseTransitionViewController.m in Sources */,
+				014E41F71F10B253003966D4 /* PreviousBlueViewController.m in Sources */,
 				019D35391F0F6F3200233819 /* AppDelegate.m in Sources */,
 				019D35361F0F6F3200233819 /* main.m in Sources */,
+				014E41EC1F107C48003966D4 /* CloseAnimation.m in Sources */,
+				014E41E91F107C3A003966D4 /* PresentingAnimation.m in Sources */,
+				019D356B1F0F6FE600233819 /* PopTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,8 +580,10 @@
 		};
 		019D355F1F0F6F3200233819 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB7C77D6513071755D11029 /* Pods-Ofo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PVS2BL8MB4;
 				INFOPLIST_FILE = Ofo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LW.Ofo;
@@ -435,8 +593,10 @@
 		};
 		019D35601F0F6F3200233819 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF35E228D2EA88B669C98A71 /* Pods-Ofo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PVS2BL8MB4;
 				INFOPLIST_FILE = Ofo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LW.Ofo;
@@ -509,6 +669,7 @@
 				019D35601F0F6F3200233819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		019D35611F0F6F3200233819 /* Build configuration list for PBXNativeTarget "OfoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +678,7 @@
 				019D35631F0F6F3200233819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		019D35641F0F6F3200233819 /* Build configuration list for PBXNativeTarget "OfoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +687,7 @@
 				019D35661F0F6F3200233819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
